@@ -215,10 +215,9 @@ cd frontend && npm run dev
 
 Additional Enhancements
 
-Authentication: Use JWT for secure user login and registration.
+Authentication: Used JWT for secure user login and registration.
 
 UI Improvements: Enhance styling with Styled Components.
 
-Modals: Use react-modal for pop-up interactions.
+Modals: Used react-modal for pop-up interactions.
 
-Deployment: Deploy frontend on Vercel/Netlify, backend on Render/Heroku, and database on MongoDB Atlas.
