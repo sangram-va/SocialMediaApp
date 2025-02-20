@@ -1,0 +1,115 @@
+/* Modal Styles for Add Article */
+.ReactModal__Content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px; /* Ensure it's spacious */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  }
+  
+  /* Modal Header */
+  h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /* Input and Textarea Styling */
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type='text']:focus,
+  textarea:focus {
+    border-color: #3b8d99;
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  button.submit {
+    background-color: #3b8d99;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit:hover {
+    background-color: #2c6d7c;
+  }
+  
+  /* Close Button Styling */
+  button.close {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button.close:hover {
+    background-color: #c0392b;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Form Group and Label Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input Placeholder Styling */
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
+.profile-section{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}  
+.badge{
+position: relative;
+top: -50px;
+}
